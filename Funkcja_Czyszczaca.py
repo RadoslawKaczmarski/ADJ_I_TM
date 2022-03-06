@@ -1,4 +1,6 @@
 import re
+
+
 def funkcja(tekst:str) -> str:
     emotikony = re.findall('[:;][^\s].', tekst)
     tekst = tekst.lower()
@@ -10,4 +12,3 @@ def funkcja(tekst:str) -> str:
     for i in emotikony:
         tekst += str(i) + ' '
     return tekst
-

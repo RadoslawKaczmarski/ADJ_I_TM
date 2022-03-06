@@ -2,6 +2,8 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
 ps = PorterStemmer()
+
+
 def stemming(txt:str) -> list:
     words = word_tokenize(txt)
     stemming_list=[]
