@@ -14,7 +14,7 @@ def zadanie2(tekst):
     return re.findall('#+[a-zA-Z]{1,}', tekst)
 
 def zadanie3(tekst):
-    return re.findall(';|:+\W.', tekst)
+    return re.findall('[:;][^\s].', tekst)
 
 
 
