@@ -16,7 +16,7 @@ def cloud(words: list) -> dict:
     return bow
 
 
-# Cloud world dla kolumn Text
+# Cloud world dla kolumn verified_reviews
 def cloud_word():
     tekst = ""
     for i in range(len(df['verified_reviews']))[:300]:
